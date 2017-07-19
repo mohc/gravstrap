@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">{% if brand_image is not null %} {{ grav.page.media[brand_image].resize(20, 20) }} {% else %} {{ brand_text }} {% endif %}</a>
+      <a class="navbar-brand" href="#">{% if brand_image is not null %}{{ grav.page.find('/images').media[brand_image].resize(brand_image_width,brand_image_height) }} {% else %} {{ brand_text }} {% endif %}</a>
     </div>
 
     <div class="collapse navbar-collapse" id="{{ id }}">
