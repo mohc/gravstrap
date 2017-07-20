@@ -89,7 +89,7 @@ class GravstrapMapShortcode extends GravstrapShortcode
             'zoom' => $shortcode->getParameter('zoom'),
             'center' => $this->convertChoords($shortcode->getParameter('center')),
             'markers' => $this->markers($shortcode),
-            'api_key' => $shortcode->getParameter('api-key'),
+            'api_key' => $shortcode->getParameter('apikey'),
         ]);
     }
 
