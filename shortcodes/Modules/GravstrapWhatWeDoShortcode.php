@@ -41,7 +41,8 @@ class GravstrapWhatWeDoShortcode extends GravstrapShortcode
     protected function childrenShortcodes()
     {
         return array(
-            'gravstrap-what-we-do-item'
+            'gravstrap-what-we-do-item',
+            'gravstrap-what-we-do-skills'
         );
     }
     
@@ -73,6 +74,9 @@ class GravstrapWhatWeDoShortcode extends GravstrapShortcode
         return array(
             'gravstrap-what-we-do' => array(
                 'g-what-we-do'
+            ),
+            'gravstrap-what-we-do-skills' => array(
+                'g-what-we-do-skills'
             ),
             'gravstrap-what-we-do-item' => array(
                 'g-what-we-do-item'
